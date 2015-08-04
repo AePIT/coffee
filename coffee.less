@@ -1,0 +1,53 @@
+.metro {
+  width: 800px;
+  margin: auto auto;
+
+  .input-control {
+    width: 100%;
+    margin: 10px;
+
+    input#person {
+      width: 80%;
+    }
+    input#add {
+      width: 15%;
+    }
+  }
+
+  .tile.person {
+    text-align: center;
+
+
+    .tile-content {
+      .tile-label {
+          vertical-align: middle;
+      }
+      .tile-badge {
+        position: absolute;
+        right: 0;
+        padding: 5px;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        width: 30px;
+        height: 20px;
+        padding-top: 0;
+        padding-bottom: 26px;
+      }
+
+      button.tile-button {
+        width: 50%;
+        height: 50%;
+        bottom: 0;
+        position: absolute;
+        left:0;
+
+        &.two {
+          right: 0;
+          left:auto;
+        }
+      }
+    }
+  }
+}
